@@ -1,9 +1,9 @@
 TkwaDb::Application.routes.draw do
-  get "users/new"
+
+  resources :users
   match '/signup',  :to => 'users#new'
 
   get "users/show"
-
   get "users/edit"
 
   get "pages/home"
