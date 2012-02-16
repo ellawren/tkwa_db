@@ -44,6 +44,10 @@
  	.triangle		{  border-left: 62px solid transparent; border-right: 62px solid transparent; border-top: 15px solid #111; position:absolute; top:40px; left:0; }
  	
  	.page-header { margin-bottom:20px; position:relative; border:none;  }
+ 	
+ 	.signin-box		{ float:right; }
+ 	a.signup-btn	{ color:#999;  margin-right:15px; }
+ 	a.signup-btn:hover	{ color:#fff; }
 
  
  	h2, h3				{ border-bottom:1px solid #d0d0d0; width:100%; clear:both;  }
